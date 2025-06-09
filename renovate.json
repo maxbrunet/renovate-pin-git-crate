@@ -1,5 +1,11 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [":dependencyDashboard"],
-  "rangeStrategy": "pin"
+  "rangeStrategy": "pin",
+  "packageRules": [
+    {
+      "matchPackageNames": ["minijinja-cabi"],
+      "versioning": "semver"
+    }
+  ]
 }
