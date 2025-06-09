@@ -4,4 +4,4 @@ version = "0.0.0"
 edition = "2024"
 
 [dependencies]
-minijinja-cabi = { git = "https://github.com/mitsuhiko/minijinja.git", tag = "2.10.2" }
+minijinja-cabi = { git = "https://github.com/mitsuhiko/minijinja.git", tag = "=2.10.2" }
